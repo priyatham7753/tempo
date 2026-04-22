@@ -1,8 +1,14 @@
+//import axios from 'axios';
+
+//const AUTH_URL = process.env.REACT_APP_AUTH_SERVICE_URL || 'http://100.53.28.12:3001';
+//const PRODUCT_URL = process.env.REACT_APP_PRODUCT_SERVICE_URL || 'http://100.53.28.12:3002';
+//const ORDER_URL = process.env.REACT_APP_ORDER_SERVICE_URL || 'http://100.53.28.12:3003';
+
 import axios from 'axios';
 
-const AUTH_URL = process.env.REACT_APP_AUTH_SERVICE_URL || 'http://localhost:3001';
-const PRODUCT_URL = process.env.REACT_APP_PRODUCT_SERVICE_URL || 'http://localhost:3002';
-const ORDER_URL = process.env.REACT_APP_ORDER_SERVICE_URL || 'http://localhost:3003';
+const AUTH_URL = 'http://100.53.28.12:3001';
+const PRODUCT_URL = 'http://100.53.28.12:3002';
+const ORDER_URL = 'http://100.53.28.12:3003';
 
 // Helper: get auth headers
 const authHeader = () => {
